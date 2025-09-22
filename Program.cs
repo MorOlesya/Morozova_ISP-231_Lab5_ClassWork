@@ -172,8 +172,18 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             {
                 int limit = 0;
                 int result = 0;
-
+                foreach (int number in numbers)
+                {
+                    if (IsPassed(numbers)) result == number;
+                }
+                return result;
+                bool IsPassed(int number)
+                {
+                    return number > limit;
+                }
             }
+
+
         }
 
     }
