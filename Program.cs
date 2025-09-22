@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace Morozova_ISP_231_Lab5_ClassWork
 {
@@ -168,22 +169,46 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             //int[] numbers2 = [3, 4, 5, 6, 7];
             //Compare(numbers1, numbers2);
 
+            //int Sum(int[] numbers)
+            //{
+            //    int limit = 0;
+            //    int result = 0;
+            //    foreach (int number in numbers)
+            //    {
+            //        if (IsPassed(number, limit)) result += number;
+            //    }
+            //    return result;
+            //    bool IsPassed(int number)
+            //    {
+            //        return number > limit;
+            //    }
+            //}
+
             int Sum(int[] numbers)
             {
                 int limit = 0;
                 int result = 0;
                 foreach (int number in numbers)
                 {
-                    if (IsPassed(numbers)) result == number;
+                    if (IsPassed(number, limit)) result += number;
                 }
                 return result;
-                bool IsPassed(int number)
+                static bool IsPassed(int number, int lim)
                 {
-                    return number > limit;
+                    return number > lim;
                 }
             }
 
+            int[] numbers1 = [-3, -2];
+            int[] numbers2 = [3, 2];
+            Console.WriteLine(Sum(numbers1));
+            Console.WriteLine(Sum(numbers2));
 
+            // 1. Ответ: Ничего
+            // 2. Ответ: void ShowWelcomeMessage()
+            // 3. Ответ: Метод вызовет ошибку компиляции
+            // 4. Ответ: void PrintNumber(int number)
+            // 5. Ответ: PrintMessage('Hello, World!')
         }
 
     }
