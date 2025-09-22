@@ -204,11 +204,7 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             Console.WriteLine(Sum(numbers1));
             Console.WriteLine(Sum(numbers2));
 
-            // 1. Ответ: Ничего
-            // 2. Ответ: void ShowWelcomeMessage()
-            // 3. Ответ: Метод вызовет ошибку компиляции
-            // 4. Ответ: void PrintNumber(int number)
-            // 5. Ответ: PrintMessage('Hello, World!')
+            
         }
 
     }
