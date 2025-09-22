@@ -38,7 +38,7 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             //        break;
             //}
 
-                       
+
             //static string Game()
             //{
             //    string fav_game = "HSR";
@@ -89,7 +89,7 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             //        //return;
             //    } 
             //    Console.WriteLine("Число положительное");
-                
+
             //}
             //CheckValue(5);
             //CheckValue(-5);
@@ -122,28 +122,59 @@ namespace Morozova_ISP_231_Lab5_ClassWork
             //    return n * Factorial(n - 1);
             //}
             //Console.WriteLine(Factorial(5));
-            
-            void Compare(int[] numbers1, int[] numbers2)
-            {
-                int numbers1Sum = 0;
-                int numbers2Sum = 0;
-                foreach (int number in numbers1)
-                    numbers1Sum += number;
-                foreach (int number in numbers2)
-                    numbers2Sum += number;
-                if (numbers1Sum > numbers2Sum)
-                    Console.WriteLine("Сумма чисел первого массива больше");
-                else if (numbers1Sum < numbers2Sum)
-                    Console.WriteLine("Сумма чисел второго массива больше");
-                else
-                    Console.WriteLine("Суммы чисел равны");
-                Console.ReadKey();
-            }
 
-            int[] numbers1 = [1, 2, 3];
-            int[] numbers2 = [3, 4, 5, 6, 7];
-            Compare(numbers1, numbers2);
+            //void Compare(int[] numbers1, int[] numbers2)
+            //{
+            //    int numbers1Sum = 0;
+            //    int numbers2Sum = 0;
+            //    foreach (int number in numbers1)
+            //        numbers1Sum += number;
+            //    foreach (int number in numbers2)
+            //        numbers2Sum += number;
+            //    if (numbers1Sum > numbers2Sum)
+            //        Console.WriteLine("Сумма чисел первого массива больше");
+            //    else if (numbers1Sum < numbers2Sum)
+            //        Console.WriteLine("Сумма чисел второго массива больше");
+            //    else
+            //        Console.WriteLine("Суммы чисел равны");
+            //}
+
+            //int[] numbers1 = [1, 2, 3];
+            //int[] numbers2 = [3, 4, 5, 6, 7];
+            //Compare(numbers1, numbers2);
+
+
+            //void Compare(int[] numbers1, int[] numbers2)
+            //{
+            //    int numbers1Sum = Sum(numbers1);
+            //    int numbers2Sum = Sum(numbers2);
+            //    if (numbers1Sum > numbers2Sum)
+            //        Console.WriteLine("Сумма чисел первого массива больше");
+            //    else if (numbers1Sum < numbers2Sum)
+            //        Console.WriteLine("Сумма чисел второго массива больше");
+            //    else
+            //        Console.WriteLine("Суммы чисел равны");
+
+            //    int Sum(int[] numbers)
+            //    {
+            //        int result = 0;
+            //        foreach (int number in numbers)
+            //            result += number;
+            //        return result;
+            //    }
+            //}
+
+            //int[] numbers1 = [1, 2, 3];
+            //int[] numbers2 = [3, 4, 5, 6, 7];
+            //Compare(numbers1, numbers2);
+
+            int Sum(int[] numbers)
+            {
+                int limit = 0;
+                int result = 0;
+
+            }
         }
-        
+
     }
 }
